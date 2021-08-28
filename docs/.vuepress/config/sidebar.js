@@ -16,7 +16,7 @@ module.exports = {
       ]
     },
   ],
-  '/02.页面/': [
+  '/02.后端/': [
     {
       title: 'html-css',
       collapsable: false,
@@ -38,13 +38,13 @@ module.exports = {
       collapsable: false, //是否可折叠，可选的，默认true
       sidebarDepth: 2, // 深度，可选的, 默认值是 1
       children: [
-        ['01.Git使用手册','Git使用手册'], // 同 {path: '01.Git使用手册', title: 'Git使用文档'}
-        ['02.GitHub高级搜索技巧','GitHub高级搜索技巧'],
-        ['03.Markdown使用教程','Markdown使用教程'],
-        ['04.npm常用命令','npm常用命令'],
-        ['05.yaml语言教程','yaml语言教程'],
-        ['06.解决百度无法收录搭建在GitHub上的个人博客的问题','解决百度无法收录搭建在GitHub上的个人博客的问题'],
-        ['07.使用Gitalk实现静态博客无后台评论系统','使用Gitalk实现静态博客无后台评论系统'],
+        ['02.GitHub技巧/05.GitHub 问题','GitHub 问题'], // 同 {path: '01.Git使用手册', title: 'Git使用文档'}
+        // ['02.GitHub高级搜索技巧','GitHub高级搜索技巧'],
+        // ['03.Markdown使用教程','Markdown使用教程'],
+        ['02.GitHub技巧/04.GitHub 创建项目','GitHub创建项目'],
+        // ['05.yaml语言教程','yaml语言教程'],
+        // ['06.解决百度无法收录搭建在GitHub上的个人博客的问题','解决百度无法收录搭建在GitHub上的个人博客的问题'],
+        // ['07.使用Gitalk实现静态博客无后台评论系统','使用Gitalk实现静态博客无后台评论系统'],
       ]
     }
   ],
@@ -72,7 +72,7 @@ module.exports = {
       ]
     },
     ['01.在线工具','在线工具'],
-    ['02.友情链接','友情链接'],
+    // ['02.友情链接','友情链接'],
   ],
   // '/': [ // 在最后定义，在没有单独设置侧边栏时统一使用这个侧边栏
   //   '',
