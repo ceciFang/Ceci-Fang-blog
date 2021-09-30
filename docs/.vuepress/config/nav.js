@@ -18,11 +18,11 @@ module.exports = [
       {
         text: '其他',
         items: [
-          { text: 'ES6', link: '/pages/7220f2/' },
+          // { text: 'ES6', link: '/pages/7220f2/' },
           { text: '前端框架', link: '/pages/602330/' },
-          { text: '计算机网络', link: '/pages/62b0be/' },
-          { text: '浏览器', link: '/pages/4e9cb9/' },
-          { text: '前端性能优化', link: '/pages/4e9cb9/' },
+          { text: '打包工具', link: '/pages/a6ef4b/' },
+          // { text: '浏览器', link: '/pages/4e9cb9/' },
+          // { text: '前端性能优化', link: '/pages/4e9cb9/' },
         ],
       },
     ],
