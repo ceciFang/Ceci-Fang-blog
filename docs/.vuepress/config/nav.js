@@ -9,7 +9,7 @@ module.exports = [
         text: '前端基础',
         items: [
           { text: 'web三剑客', link: '/pages/3dbf66/' },
-          { text: '新技术', link: '/pages/9fb2d5/' },
+          // { text: '新技术', link: '/pages/9fb2d5/' },
           { text: '开发环境', link: '/pages/58f512/' },
         
         ],
@@ -40,15 +40,26 @@ module.exports = [
     ],
   },
   {
-    text: '学习',
-    link: '/learn/',
+    text: '技术',
+    link: '/technology/',
     items: [
       { text: '技术文档', link: '/pages/9a7ee40fc232253e/' },
       { text: '答疑解惑文档', link: '/pages/9e2549/' },
     ],
   },
   {
-    text: '叨叨念念',
+    text: '兴趣爱好',
+    link: '/like/',
+    items: [
+      // { text: '学习', link: '/pages/f2a556/' },
+      // { text: '面试', link: '/pages/aea6571b7a8bae86/' },
+      // { text: '心情杂货', link: '/pages/2d615df9a36a98ed/' },
+      // { text: '实用技巧', link: '/pages/baaa02/' },
+      // { text: '友情链接', link: '/friends/' },
+    ],
+  },
+  {
+    text: '更多',
     link: '/more/',
     items: [
       { text: '学习', link: '/pages/f2a556/' },
